@@ -14,15 +14,21 @@ In order to fit the requirements on my drone, instead of putting bulky screw hol
 
 ## Schematic
 <img width="682" height="683" alt="Screenshot 2026-11-11 at 6 53 47 PM" src="https://github.com/user-attachments/assets/3af03ed3-1a6d-4b41-8644-8591e59b14fe" />
+
 ## PCB
+
 ### Backside
 <img width="963" height="474" alt="Screenshot 2026-11-11 at 6 55 00 PM" src="https://github.com/user-attachments/assets/4c9c1eb7-7cc6-4207-9680-8b5ed7fd2714" />
+
 ### Frontside
 <img width="962" height="523" alt="Screenshot 2026-11-11 at 6 54 46 PM" src="https://github.com/user-attachments/assets/5d9edeb4-755f-42fb-82f2-f4c641671d9d" />
+
 ### Topside
 <img width="896" height="485" alt="Screenshot 2026-11-11 at 6 59 27 PM" src="https://github.com/user-attachments/assets/766f0370-9c3f-451d-86fa-eb5172a674fb" />
+
 ### Bottom
 <img width="907" height="464" alt="Screenshot 2026-11-11 at 6 59 53 PM" src="https://github.com/user-attachments/assets/f9c060f9-fe18-44a5-b847-dff31d9f899c" />
+
 ## Wiring with Pins to ESP32 DevKit-C CP2012
 | J1 Pin | Signal   | ESP32 GPIO | Notes                                        |
 |:------:|----------|:----------:|----------------------------------------------|
