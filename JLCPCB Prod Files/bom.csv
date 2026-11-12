@@ -1,0 +1,11 @@
+﻿Designator,Footprint,Quantity,Value,LCSC Part #
+"C1, C10, C11, C12, C13, C14, C15, C16, C17, C2, C3, C4, C5, C6, C8, C9",0402,16,C_US,
+D1,0402,1,LED,
+J1,PinSocket_2x06_P2.54mm_Vertical,1,Input,
+J2,SMA_Amphenol_132289_EdgeMount,1,RP-SMA Connector,
+"L1, L2",0402,2,L,
+"R1, R2, R3",0402,3,R,
+U1,HVQFN-24-1EP_4x4mm_P0.5mm_EP2.1x2.1mm,1,SX1280IMLTRT,C125969
+U2,HVQFN-16-1EP_3x3mm_P0.5mm_EP1.5x1.5mm,1,RFX2401C,C19213
+U3,TSOT-23-5,1,LT1761-1.2,
+Y2,Crystal_SMD_3225-4Pin_3.2x2.5mm,1,Crystal_GND24,
