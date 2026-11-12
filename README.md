@@ -77,4 +77,5 @@ In order to fit the requirements on my drone, instead of putting bulky screw hol
 
 ## Additional Notes
 Although this is a kind of uneventful and not world-changing project like some of the other ones, it was quite fun. A lot of my projects got rejected already :'(
+
 The reason I will be using JLCPCB over PCBWay is due to the marketing and reputation of JLCPCB, and I can't manufacture the PCBs in-house as I don't have any experience with it or have the materials with assembly.
