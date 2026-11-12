@@ -12,6 +12,8 @@ In order to fit the requirements on my drone, instead of putting bulky screw hol
 
 # PCB + Wiring Diagram
 
+I used KiCAD, as it is free, unlike something like Altium Designer, to design the PCB, find parts, and make schematics.
+
 ## Schematic
 <img width="682" height="683" alt="Screenshot 2026-11-11 at 6 53 47 PM" src="https://github.com/user-attachments/assets/3af03ed3-1a6d-4b41-8644-8591e59b14fe" />
 
@@ -75,9 +77,23 @@ In order to fit the requirements on my drone, instead of putting bulky screw hol
 | **Total Production Cost** | **Complete Turnkey Prototype Build (5 Assembled Boards)** | **BOM Total + M&A Total (H27 + H28)** | **Complete Run (5 Boards)** | **Total Batch** | **5** | **$14.90** | **$74.50** | |
 | **Per-Unit Production Cost** | **Effective Turnkey Cost per Assembled Board** | **Total Production Cost ÷ 5 Units (H29 / 5)** | **Per Assembled Unit** | **Unit Rate** | **1** | **$14.90** | **$14.90** | |
 
+## Test Code
+
+'''#include <RadioLib.h>
+SX1280 radio = new Module(5, 27, 13, 4); // NSS, DIO1, RST, BUSY
+
+void setup() {
+  SPI.begin(18, 19, 23, 5);       // SCK, MISO, MOSI, NSS
+  radio.setRfSwitchPins(26, 25);  // RXEN, TXEN
+  radio.begin();
+}'''
+
+
 ## Additional Notes
 Although this is a kind of uneventful and not world-changing project like some of the other ones, it was quite fun. A lot of my projects got rejected already :'(
 
 The reason I will be using JLCPCB over PCBWay is due to the marketing and reputation of JLCPCB, and I can't manufacture the PCBs in-house as I don't have any experience with it or have the materials with assembly.
 
 Also if there are files called ESP-NOW..., the project was unable to be renamed in KiCAD and I originally wanted it to use ESP-NOW, but that is a WiFi protocol and not LR enough.
+
+I played Factorio a couple years back, beat it, played Krastorio and SE, and it was more similar than not to trace routing. Very fun to do, actually!
