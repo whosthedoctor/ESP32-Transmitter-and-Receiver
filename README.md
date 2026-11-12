@@ -91,10 +91,12 @@ I played Factorio a couple years back, beat it, played Krastorio and SE, and it 
 
 No Hackatime as its a pretty short and basic script.
 
-```#include <RadioLib.h>
+```
+#include <RadioLib.h>
 SX1280 radio = new Module(5, 27, 13, 4);
 void setup() {
   SPI.begin(18, 19, 23, 5);
   radio.setRfSwitchPins(26, 25);
   radio.begin();
-}```
+}
+```
