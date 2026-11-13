@@ -1,8 +1,8 @@
 Designator,Description,Manufacturer,Part Number,LCSC Part #,Quantity,Unit Price,Total Price,Direct Link
 U1,2.4 GHz Transceiver IC (LoRa/FLRC/GFSK),Semtech,SX1280IMLTRT,C125969,1,$4.20,$4.20,https://www.lcsc.com/product-detail/C125969.html
 U2,2.4 GHz RF Front-End (PA + LNA + TR Switch),Skyworks / RFMD,RFX2401C,C19213,1,$1.15,$1.15,https://www.lcsc.com/product-detail/C19213.html
-J1,RP-SMA Female Edge Mount Connector (1.6mm PCB),Dongguan Linconn,SMA-KFD01,C496551,1,$0.65,$0.65,https://www.lcsc.com/product-detail/C496551.html
-J2,"1x12 Male Header (2.54mm / 0.1"" pitch)",Changjiang,A2541WV-12P,C2833334,1,$0.20,$0.20,https://www.lcsc.com/product-detail/C2833334.html
+J2,"SMA Female Edge Mount Connector (1.6mm PCB) — LCSC 0 stock, Other Suppliers, hand-solder",Amphenol,132289,C3172723,1,$7.59,$7.59,https://www.lcsc.com/product-detail/C3172723.html
+J1,"1x12 Male Header (2.54mm / 0.1"" pitch)",Changjiang,A2541WV-12P,C2833334,1,$0.20,$0.20,https://www.lcsc.com/product-detail/C2833334.html
 X1,"52 MHz 4-pad SMD Crystal (±10 ppm, 10 pF load)",HCI,XC21M4-52.000-F10NNHPL,C3034316,1,$0.12,$0.12,https://www.lcsc.com/product-detail/C3034316.html
 U3,3.3V Low-Noise LDO Regulator (500mA),Diodes Inc.,AP2112K-3.3TRG1,C51118,1,$0.22,$0.22,https://www.lcsc.com/product-detail/C51118.html
 "C1, C2",10 µF 10V X5R 0603 Ceramic Bulk Capacitors,Samsung,CL10A106KP8NNNC,C19702,2,$0.05,$0.10,https://www.lcsc.com/product-detail/C19702.html
@@ -13,7 +13,7 @@ L1,1.0 nH 0402 High-Q RF Inductor,Murata,LQG15HS1N0S02D,C18222,1,$0.03,$0.03,htt
 L2,4.7 nH 0402 High-Q RF Inductor,Murata,LQG15HS4N7S02D,C86065,1,$0.03,$0.03,https://www.lcsc.com/product-detail/C86065.html
 R1,1 kΩ 1% 0402 SMD Resistor for D1 Power Indicator LED,UNI-ROYAL,0402WGF1001TCE,C25744,1,$0.01,$0.01,https://www.lcsc.com/product-detail/C25744.html
 R2,0 Ω 0603 Jumper Resistor,UNI-ROYAL,0603WAF0000T5E,C21189,1,$0.01,$0.01,https://www.lcsc.com/product-detail/C21189.html
-ANT1,"2.4GHz Rubber Duck Antenna (SMA Male, 2.5dBi)",ZIISOR,TX2400-JZR-6,C54321745,1,$0.90,$0.90,https://www.lcsc.com/product-detail/C54321745.html
+ANT1,"2.4GHz Antenna, SMA Male, 2dBi, ~50mm — 2-pack $5.98 ($2.99/antenna, ref price); buy 3 packs for 5 boards",BOOBRIE,B0991PKTDL,B0991PKTDL,1,$2.99,$2.99,https://www.amazon.com/BOOBRIE-Antenna-802-11b-Aerial-Wireless/dp/B0991PKTDL
 "R3, R4",1 kΩ 1% 0603 TXEN/RXEN Series Resistors,UNI-ROYAL,0603WAF1001T5E,C21190,2,$0.01,$0.02,https://www.lcsc.com/product-detail/C21190.html
 ,,,,,,,,
 PCB-FAB,PCB Fabrication (5x 2-Layer 1.6mm FR-4 PCBs),JLCPCB,"1.6mm FR-4, HASL, 2-Layer, Green Mask",Custom Fab,5,$0.80,$4.00,https://jlcpcb.com/capabilities/pcb-capabilities
@@ -24,7 +24,7 @@ LOGISTICS,Express Shipping & Handling (Global Direct / DHL),DHL / Global Direct,
 ,,,,,,,,
 ,,,,,,,,
 ,,,,,,,,
-Component BOM Cost,SX1280 Transceiver BOM Components (5 Boards),BOM Subtotal (SUM H2:H17 x 5),5 Assembled Units,BOM Table,5,$7.80,$39.00,
+Component BOM Cost,SX1280 Transceiver BOM Components (5 Boards),BOM Subtotal (SUM H2:H17 x 5),5 Assembled Units,BOM Table,5,$16.83,$84.15,
 Manufacturing & Assembly,"JLCPCB PCB Fab, SMT Assembly & Shipping",M&A Subtotal (SUM H19:H23),Fixed Batch (5 Boards),JLCPCB Quote,5,$7.10,$35.50,
-Total Production Cost,Complete Turnkey Prototype Build (5 Assembled Boards),BOM Total + M&A Total (H27 + H28),Complete Run (5 Boards),Total Batch,5,$14.90,$74.50,
-Per-Unit Production Cost,Effective Turnkey Cost per Assembled Board,Total Production Cost ÷ 5 Units (H29 / 5),Per Assembled Unit,Unit Rate,1,$14.90,$14.90,
+Total Production Cost,Complete Turnkey Prototype Build (5 Assembled Boards),BOM Total + M&A Total (H27 + H28),Complete Run (5 Boards),Total Batch,5,$23.93,$119.65,
+Per-Unit Production Cost,Effective Turnkey Cost per Assembled Board,Total Production Cost ÷ 5 Units (H29 / 5),Per Assembled Unit,Unit Rate,1,$23.93,$23.93,
