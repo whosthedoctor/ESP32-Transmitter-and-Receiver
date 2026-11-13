@@ -62,17 +62,17 @@ I used KiCAD, as it is free, unlike something like Altium Designer, to design th
 | L2 | 4.7 nH 0402 High-Q RF Inductor | Murata | LQG15HS4N7S02D | C86065 | 1 | $0.03 | $0.03 | https://www.lcsc.com/product-detail/C86065.html |
 | R1 | 1 kΩ 1% 0402 SMD Resistor for D1 Power Indicator LED | UNI-ROYAL | 0402WGF1001TCE | C25744 | 1 | $0.01 | $0.01 | https://www.lcsc.com/product-detail/C25744.html |
 | R2 | 0 Ω 0603 Jumper Resistor | UNI-ROYAL | 0603WAF0000T5E | C21189 | 1 | $0.01 | $0.01 | https://www.lcsc.com/product-detail/C21189.html |
-| ANT1 | 2.4GHz Antenna, SMA Male, 2dBi, ~50mm — 2-pack $5.98 ($2.99/antenna, ref price); buy 3 packs for 5 boards | BOOBRIE | B0991PKTDL | B0991PKTDL | 1 | $2.99 | $2.99 | https://www.amazon.com/BOOBRIE-Antenna-802-11b-Aerial-Wireless/dp/B0991PKTDL |
+| ANT1 | 2.4GHz Antenna, SMA Male, 2dBi, ~50mm — 2-pack $6.68 ($3.34/antenna); buy 3 packs for 5 boards | BOOBRIE | B0991PKTDL | B0991PKTDL | 1 | $3.34 | $3.34 | https://www.amazon.com/BOOBRIE-Antenna-802-11b-Aerial-Wireless/dp/B0991PKTDL |
 | R3, R4 | 1 kΩ 1% 0603 TXEN/RXEN Series Resistors | UNI-ROYAL | 0603WAF1001T5E | C21190 | 2 | $0.01 | $0.02 | https://www.lcsc.com/product-detail/C21190.html |
 | PCB-FAB | PCB Fabrication (5x 2-Layer 1.6mm FR-4 PCBs) | JLCPCB | 1.6mm FR-4, HASL, 2-Layer, Green Mask | Custom Fab | 5 | $0.80 | $4.00 | https://jlcpcb.com/capabilities/pcb-capabilities |
 | PCBA-SETUP | JLCPCB SMT Assembly Base Setup Fee | JLCPCB | SMT Production Line Setup & Calibration | PCBA Fee | 1 | $7.00 | $7.00 | https://jlcpcb.com/pcb-assembly |
 | PCBA-SMT | SMT Component Placement & Stencil Fee | JLCPCB | Laser Cut SMT Stencil & High-Speed Pick-and-Place | PCBA Fee | 1 | $6.50 | $6.50 | https://jlcpcb.com/pcb-assembly |
 | PCBA-LOAD | Extended Component Loading Fee (Unique LCSC parts) | JLCPCB | Specialty Reel Feeder Setup for Non-Basic Parts | LCSC Fee | 1 | $3.00 | $3.00 | https://jlcpcb.com/pcb-assembly |
 | LOGISTICS | Express Shipping & Handling (Global Direct / DHL) | DHL / Global Direct | Air Express Shipping (3-5 Business Days) | Freight | 1 | $15.00 | $15.00 | https://www.dhl.com/ |
-| **Component BOM Cost** | **SX1280 Transceiver BOM Components (5 Boards)** | **BOM Subtotal (SUM H2:H17 x 5)** | **5 Assembled Units** | **BOM Table** | **5** | **$16.83** | **$84.15** | |
+| **Component BOM Cost** | **SX1280 Transceiver BOM Components (5 Boards)** | **BOM Subtotal (SUM H2:H17 x 5)** | **5 Assembled Units** | **BOM Table** | **5** | **$17.18** | **$85.90** | |
 | **Manufacturing & Assembly** | **JLCPCB PCB Fab, SMT Assembly & Shipping** | **M&A Subtotal (SUM H19:H23)** | **Fixed Batch (5 Boards)** | **JLCPCB Quote** | **5** | **$7.10** | **$35.50** | |
-| **Total Production Cost** | **Complete Turnkey Prototype Build (5 Assembled Boards)** | **BOM Total + M&A Total (H27 + H28)** | **Complete Run (5 Boards)** | **Total Batch** | **5** | **$23.93** | **$119.65** | |
-| **Per-Unit Production Cost** | **Effective Turnkey Cost per Assembled Board** | **Total Production Cost ÷ 5 Units (H29 / 5)** | **Per Assembled Unit** | **Unit Rate** | **1** | **$23.93** | **$23.93** | |
+| **Total Production Cost** | **Complete Turnkey Prototype Build (5 Assembled Boards)** | **BOM Total + M&A Total (H27 + H28)** | **Complete Run (5 Boards)** | **Total Batch** | **5** | **$24.28** | **$121.40** | |
+| **Per-Unit Production Cost** | **Effective Turnkey Cost per Assembled Board** | **Total Production Cost ÷ 5 Units (H29 / 5)** | **Per Assembled Unit** | **Unit Rate** | **1** | **$24.28** | **$24.28** | |
 
 
 ## Additional Notes
@@ -84,7 +84,7 @@ Also if there are files called ESP-NOW..., the project was unable to be renamed 
 
 I played Factorio a couple years back, beat it, played Krastorio and SE, and it was more similar than not to trace routing. Very fun to do, actually!
 
-Antennas (Amazon): the receiver/drone antenna is the BOOBRIE 2.4GHz SMA male (B0991PKTDL) — a 2-antenna pack, $5.98/pack ($2.99 each, better per-antenna rate than singles). One antenna per board, so 3 packs for 5 boards (1 spare). The transmitter/controller antenna is the QWinOut 2.4GHz ExpressLRS ES24TX (RP-SMA plug, for the Micro TX module) — also a 2-antenna pack, 1 pack for the controller (1 used, 1 spare); price to be filled in from the Amazon page.
+Antennas (Amazon): the receiver/drone antenna is the BOOBRIE 2.4GHz SMA male (B0991PKTDL) — a 2-antenna pack, $6.68/pack ($3.34 each, better per-antenna rate than singles). One antenna per board, so 3 packs for 5 boards (1 spare). The transmitter/controller antenna is the HeelAooRC 2.4GHz ExpressLRS ES24TX Moxon (SMA plug, for the Micro TX module) — also a 2-antenna pack, $14.99/pack, 1 pack for the controller (1 used, 1 spare).
 
 ## Test Code
 
