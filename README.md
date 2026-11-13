@@ -21,16 +21,12 @@ I used KiCAD, as it is free, unlike something like Altium Designer, to design th
 ## PCB
 
 ### Backside
-<img width="963" height="474" alt="Screenshot 2026-11-11 at 6 55 00 PM" src="https://github.com/user-attachments/assets/4c9c1eb7-7cc6-4207-9680-8b5ed7fd2714" />
 
 ### Frontside
-<img width="962" height="523" alt="Screenshot 2026-11-11 at 6 54 46 PM" src="https://github.com/user-attachments/assets/5d9edeb4-755f-42fb-82f2-f4c641671d9d" />
-<img width="636" height="305" alt="Screenshot 2026-11-12 at 5 43 25 PM" src="https://github.com/user-attachments/assets/a08564d9-9fe3-402d-bbf2-ff6c86c3e144" />
+
 ### Topside
-<img width="896" height="485" alt="Screenshot 2026-11-11 at 6 59 27 PM" src="https://github.com/user-attachments/assets/766f0370-9c3f-451d-86fa-eb5172a674fb" />
 
 ### Bottom
-<img width="907" height="464" alt="Screenshot 2026-11-11 at 6 59 53 PM" src="https://github.com/user-attachments/assets/f9c060f9-fe18-44a5-b847-dff31d9f899c" />
 
 ## Wiring with Pins to ESP32 DevKit-C CP2012
 | J1 Pin | Signal   | ESP32 GPIO | Notes                                        |
