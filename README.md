@@ -20,8 +20,13 @@ I used KiCAD, as it is free, unlike something like Altium Designer, to design th
 26-11-11 at 6 53 47 PM" src="https://github.com/user-attachments/assets/3af03ed3-1a6d-4b41-8644-8591e59b14fe" />
 
 ## PCB
-V3<img width="732" height="507" alt="Screenshot 2026-11-14 at 9 51 46 PM" src="https://github.com/user-attachments/assets/1bd12f5d-2186-4589-bcfb-17f516ea13ef" />
-V2<img width="428" height="301" alt="Screenshot 2026-11-14 at 10 05 11 PM" src="https://github.com/user-attachments/assets/41283959-029f-42a0-bfb8-8df10dd6fda5" />
+V3
+
+<img width="732" height="507" alt="Screenshot 2026-11-14 at 9 51 46 PM" src="https://github.com/user-attachments/assets/1bd12f5d-2186-4589-bcfb-17f516ea13ef" />
+
+V2
+
+<img width="732" height="507" alt="Screenshot 2026-11-14 at 10 05 11 PM" src="https://github.com/user-attachments/assets/41283959-029f-42a0-bfb8-8df10dd6fda5" />
 
 
 ### Backside
