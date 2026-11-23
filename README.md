@@ -16,18 +16,16 @@ In order to fit the requirements on my drone, instead of putting bulky screw hol
 I used KiCAD, as it is free, unlike something like Altium Designer, to design the PCB, find parts, and make schematics.
 
 ## Schematic
-<img width="682" height="683" alt="Screenshot 20![Uploading Screenshot 2026-11-14 at 9.51.23 PM.png…]()
-26-11-11 at 6 53 47 PM" src="https://github.com/user-attachments/assets/3af03ed3-1a6d-4b41-8644-8591e59b14fe" />
+![Schematic](docs/images/schematic.png)
+
+Full schematic PDF: [Schematic Files/ESPNOW_Reciever_and_Transmitter.pdf](Schematic%20Files/ESPNOW_Reciever_and_Transmitter.pdf)
 
 ## PCB
-V3
+![PCB layout](docs/images/pcb-layout.png)
 
-<img width="732" height="507" alt="Screenshot 2026-11-14 at 9 51 46 PM" src="https://github.com/user-attachments/assets/1bd12f5d-2186-4589-bcfb-17f516ea13ef" />
+![3D render](docs/images/pcb-3d.png)
 
-V2
-
-<img width="732" height="507" alt="Screenshot 2026-11-14 at 10 05 11 PM" src="https://github.com/user-attachments/assets/41283959-029f-42a0-bfb8-8df10dd6fda5" />
-
+Gerbers and drill files are in `PCB Gerbers/`, zipped for JLCPCB upload in `JLCPCB Prod Files/gerbers.zip`.
 
 ### Backside
 
