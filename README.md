@@ -75,15 +75,14 @@ V2
 | D1 | Red 0402 SMD LED (power indicator, Vf 1.95V) | Kingbright | APHHS1005SURCK | C2852592 | 1 | $0.18 | $0.18 | https://www.lcsc.com/product-detail/C2852592.html |
 | ANT1 | 2.4GHz Antenna, SMA Male, 2dBi, ~50mm — 2-pack $6.68 ($3.34/antenna); buy 3 packs for 5 boards | BOOBRIE | B0991PKTDL | B0991PKTDL | 1 | $3.34 | $3.34 | https://www.amazon.com/BOOBRIE-Antenna-802-11b-Aerial-Wireless/dp/B0991PKTDL |
 | C14, C15, C16, C17 | In schematic, values TBD by John (DIO/DCC caps) — not orderable yet | TBD | TBD | TBD | 4 | $0.00 | $0.00 |  |
-| PCB-FAB | PCB Fabrication (5x 2-Layer 1.6mm FR-4 PCBs) | JLCPCB | 1.6mm FR-4, HASL, 2-Layer, Green Mask | Custom Fab | 5 | $0.80 | $4.00 | https://jlcpcb.com/capabilities/pcb-capabilities |
-| PCBA-SETUP | JLCPCB SMT Assembly Base Setup Fee | JLCPCB | SMT Production Line Setup & Calibration | PCBA Fee | 1 | $7.00 | $7.00 | https://jlcpcb.com/pcb-assembly |
-| PCBA-SMT | SMT Component Placement & Stencil Fee | JLCPCB | Laser Cut SMT Stencil & High-Speed Pick-and-Place | PCBA Fee | 1 | $6.50 | $6.50 | https://jlcpcb.com/pcb-assembly |
-| PCBA-LOAD | Extended Component Loading Fee (Unique LCSC parts) | JLCPCB | Specialty Reel Feeder Setup for Non-Basic Parts | LCSC Fee | 1 | $3.00 | $3.00 | https://jlcpcb.com/pcb-assembly |
-| LOGISTICS | Express Shipping & Handling (Global Direct / DHL) | DHL / Global Direct | Air Express Shipping (3-5 Business Days) | Freight | 1 | $15.00 | $15.00 | https://www.dhl.com/ |
-| **Component BOM Cost** | **SX1280 Transceiver BOM Components (5 Boards)** | **BOM Subtotal (SUM H2:H19 x 5)** | **5 Assembled Units** | **BOM Table** | **5** | **$17.18** | **$85.90** |  |
-| **Manufacturing & Assembly** | **JLCPCB PCB Fab, SMT Assembly & Shipping** | **M&A Subtotal (SUM H21:H25)** | **Fixed Batch (5 Boards)** | **JLCPCB Quote** | **5** | **$7.10** | **$35.50** |  |
-| **Total Production Cost** | **Complete Turnkey Prototype Build (5 Assembled Boards)** | **BOM Total + M&A Total (H29 + H30)** | **Complete Run (5 Boards)** | **Total Batch** | **5** | **$24.28** | **$121.40** |  |
-| **Per-Unit Production Cost** | **Effective Turnkey Cost per Assembled Board** | **Total Production Cost ÷ 5 Units (H31 / 5)** | **Per Assembled Unit** | **Unit Rate** | **1** | **$24.28** | **$24.28** |  |
+| PCB-FAB | PCB fabrication, board v8_Y4 (5x, Green mask, 1.6mm, ENIG) — JLCPCB cart quote 2026-11-22 | JLCPCB | v8_Y4 PCB prototype | JLCPCB | 5 | $7.78 | $38.91 | https://jlcpcb.com/capabilities/pcb-capabilities |
+| PCBA | Standard PCBA, top side assembled (5 boards) — includes the parts JLCPCB sources plus setup/assembly fees — JLCPCB cart quote 2026-11-22 | JLCPCB | v8_Y4 Standard PCBA | JLCPCB | 5 | $18.44 | $92.18 | https://jlcpcb.com/pcb-assembly |
+| SHIPPING | Estimated shipping to US (0.41 kg, est. ship date 2026-11-28) | JLCPCB | Shipping | Freight | 1 | $25.99 | $25.99 | https://jlcpcb.com/ |
+| ANTENNAS | BOOBRIE 2.4GHz SMA male antennas, 3 x 2-pack (5 boards + 1 spare), Amazon | BOOBRIE | B0991PKTDL | Amazon | 3 | $6.68 | $20.04 | https://www.amazon.com/BOOBRIE-Antenna-802-11b-Aerial-Wireless/dp/B0991PKTDL |
+| **JLCPCB Order Total** | **PCB + PCBA + shipping (5 boards)** | **Cart subtotal 2026-11-22** | **5 Assembled Boards** | **JLCPCB Quote** | **5** | **$31.42** | **$157.08** |  |
+| **Total Project Cost** | **JLCPCB order + antennas** | **$157.08 + $20.04** | **5 Boards** | **Total** | **5** | **$35.42** | **$177.12** |  |
+
+The component lines above are reference LCSC unit prices; the real cost is the JLCPCB quote, since the PCBA price already includes the parts JLCPCB sources and places.
 
 ## Additional Notes
 Although this is a kind of uneventful and not world-changing project like some of the other ones, it was quite fun. A lot of my projects got rejected already :'(
