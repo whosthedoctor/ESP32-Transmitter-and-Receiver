@@ -55,34 +55,32 @@ V2
 
 
 ## BOM
-| Designator | Description | Manufacturer | Part Number | LCSC Part # | Quantity | Unit Price | Total Price | Direct Link |
-| :--- | :--- | :--- | :--- | :--- | :---: | ---: | ---: | :--- |
-| U1 | 2.4 GHz Transceiver IC (LoRa/FLRC/GFSK) | Semtech | SX1280IMLTRT | C125969 | 1 | $4.20 | $4.20 | https://www.lcsc.com/product-detail/C125969.html |
-| U2 | 2.4 GHz RF Front-End (PA + LNA + TR Switch) | Skyworks / RFMD | RFX2401C | C19213 | 1 | $1.15 | $1.15 | https://www.lcsc.com/product-detail/C19213.html |
-| J2 | SMA Female Edge Mount Connector (1.6mm PCB) — LCSC 0 stock, Other Suppliers, hand-solder | Amphenol | 132289 | C3172723 | 1 | $7.59 | $7.59 | https://www.lcsc.com/product-detail/C3172723.html |
-| J1 | 2x6 Female Pin Socket (2.54mm pitch) — matches PinSocket_2x06 footprint | HDGC | HDGCPH2.54-PZS-2X6 | C19725274 | 1 | $0.19 | $0.19 | https://www.lcsc.com/product-detail/C19725274.html |
-| Y2 | 52 MHz 4-pad SMD Crystal (±10 ppm, 10 pF load) — SMD2016 | HCI | XC21M4-52.000-F10NNHPL | C3034316 | 1 | $0.07 | $0.07 | https://www.lcsc.com/product-detail/C3034316.html |
-| U3 | 3.3V Low-Noise LDO Regulator (500mA) — SOT-23-5 | Diodes Inc. | AP2112K-3.3TRG1 | C51118 | 1 | $0.22 | $0.22 | https://www.lcsc.com/product-detail/C51118.html |
-| C1 | 10 µF 10V X5R 0402 Ceramic Bulk Capacitor (+3V3 rail) | Samsung | CL05A106MP5NUNC | C315248 | 1 | $0.03 | $0.03 | https://www.lcsc.com/product-detail/C315248.html |
-| C2, C8, C9, C10, C11 | 0.1 µF 16V X7R 0402 Decoupling Capacitors | Murata | GRM155R71C104KA88D | C71629 | 5 | $0.01 | $0.05 | https://www.lcsc.com/product-detail/C71629.html |
-| C5 | 1.5 pF 50V C0G 0402 RF Matching Capacitor | Murata | GRM1555C1H1R5BA01D | C76957 | 1 | $0.02 | $0.02 | https://www.lcsc.com/product-detail/C76957.html |
-| C6 | 1.0 pF 50V C0G 0402 RF Matching Capacitor | Murata | GRM1555C1H1R0BA01D | C76952 | 1 | $0.02 | $0.02 | https://www.lcsc.com/product-detail/C76952.html |
-| C13 | 470 nF 10V X5R 0402 DCC Filter Capacitor (SX1280 ref design C9) | Murata | GRM155R61A474KE15D | C77003 | 1 | $0.02 | $0.02 | https://www.lcsc.com/product-detail/C77003.html |
-| C18 | 100 pF 50V C0G 0402 DC-Blocking Capacitor (RF path, series — add to schematic) | Murata | GRM1555C1H101JA01D | C77177 | 1 | $0.01 | $0.01 | https://www.lcsc.com/product-detail/C77177.html |
-| L1 | 1.0 nH 0402 High-Q RF Inductor | Murata | LQG15HS1N0S02D | C18222 | 1 | $0.03 | $0.03 | https://www.lcsc.com/product-detail/C18222.html |
-| L2 | 4.7 nH 0402 High-Q RF Inductor | Murata | LQG15HS4N7S02D | C86065 | 1 | $0.03 | $0.03 | https://www.lcsc.com/product-detail/C86065.html |
-| R1, R2, R3 | 1 kΩ 1% 0402 SMD Resistors (R1 = D1 LED, R2/R3 = TXEN/RXEN series) | UNI-ROYAL | 0402WGF1001TCE | C25744 | 3 | $0.01 | $0.03 | https://www.lcsc.com/product-detail/C25744.html |
-| D1 | Red 0402 SMD LED (power indicator, Vf 1.95V) | Kingbright | APHHS1005SURCK | C2852592 | 1 | $0.18 | $0.18 | https://www.lcsc.com/product-detail/C2852592.html |
-| ANT1 | 2.4GHz Antenna, SMA Male, 2dBi, ~50mm — 2-pack $6.68 ($3.34/antenna); buy 3 packs for 5 boards | BOOBRIE | B0991PKTDL | B0991PKTDL | 1 | $3.34 | $3.34 | https://www.amazon.com/BOOBRIE-Antenna-802-11b-Aerial-Wireless/dp/B0991PKTDL |
-| C14, C15, C16, C17 | In schematic, values TBD by John (DIO/DCC caps) — not orderable yet | TBD | TBD | TBD | 4 | $0.00 | $0.00 |  |
-| PCB-FAB | PCB fabrication, board v8_Y4 (5x, Green mask, 1.6mm, ENIG) — JLCPCB cart quote 2026-11-22 | JLCPCB | v8_Y4 PCB prototype | JLCPCB | 5 | $7.78 | $38.91 | https://jlcpcb.com/capabilities/pcb-capabilities |
-| PCBA | Standard PCBA, top side assembled (5 boards) — includes the parts JLCPCB sources plus setup/assembly fees — JLCPCB cart quote 2026-11-22 | JLCPCB | v8_Y4 Standard PCBA | JLCPCB | 5 | $18.44 | $92.18 | https://jlcpcb.com/pcb-assembly |
-| SHIPPING | Estimated shipping to US (0.41 kg, est. ship date 2026-11-28) | JLCPCB | Shipping | Freight | 1 | $25.99 | $25.99 | https://jlcpcb.com/ |
-| ANTENNAS | BOOBRIE 2.4GHz SMA male antennas, 3 x 2-pack (5 boards + 1 spare), Amazon | BOOBRIE | B0991PKTDL | Amazon | 3 | $6.68 | $20.04 | https://www.amazon.com/BOOBRIE-Antenna-802-11b-Aerial-Wireless/dp/B0991PKTDL |
-| **JLCPCB Order Total** | **PCB + PCBA + shipping (5 boards)** | **Cart subtotal 2026-11-22** | **5 Assembled Boards** | **JLCPCB Quote** | **5** | **$31.42** | **$157.08** |  |
-| **Total Project Cost** | **JLCPCB order + antennas** | **$157.08 + $20.04** | **5 Boards** | **Total** | **5** | **$35.42** | **$177.12** |  |
+Component lines come straight from the JLCPCB BOM matching export (2026-11-23); prices are what JLCPCB charges for the quantities it orders (minimum order quantities make the ordered qty higher than 5 per board).
 
-The component lines above are reference LCSC unit prices; the real cost is the JLCPCB quote, since the PCBA price already includes the parts JLCPCB sources and places.
+| Designator | Value | Manufacturer | Part Number | JLCPCB Part # | Description | Qty per Board | Qty Ordered (5 boards) | Total Price | Link |
+|---|---|---|---|---|---|---|---|---|---|
+| C1 | 10uF | Samsung Electro-Mechanics | CL05A106MQ5NUNC | C15525 | 10uF 6.3V X5R ±20% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS | 1 | 20 | $0.38 | https://jlcpcb.com/partdetail/16204-CL05A106MQ5NUNC/C15525 |
+| C2, C9, C10, C11 | 100nF | Samsung Electro-Mechanics | CL05B104KO5NNNC | C1525 | 100nF 16V X7R ±10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS | 4 | 35 | $0.09 | https://jlcpcb.com/partdetail/1877-CL05B104KO5NNNC/C1525 |
+| C5 | 1.2pF | Murata Electronics | GRM1555C1E1R2CA01D | C782152 | 1.2pF 25V C0G 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS | 1 | 20 | $0.10 | https://jlcpcb.com/partdetail/835274-GRM1555C1E1R2CA01D/C782152 |
+| C12 | 1.2pF | Murata Electronics | GRM1555C1E1R2CA01D | C782152 | 1.2pF 25V C0G 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS | 1 | 20 | $0.10 | https://jlcpcb.com/partdetail/835274-GRM1555C1E1R2CA01D/C782152 |
+| C6 | 0.8pF | Walsin Tech Corp | RF15N0R8A500 | C172853 | 0.8pF 50V NP0 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS | 1 | 20 | $0.35 | https://jlcpcb.com/partdetail/Walsin_TechCorp-RF15N0R8A500/C172853 |
+| C13 | 470nF | Samsung Electro-Mechanics | CL05A474KA5NNNC | C92361 | 25V 470nF X5R ±10% 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS | 1 | 20 | $0.39 | https://jlcpcb.com/partdetail/93554-CL05A474KA5NNNC/C92361 |
+| C19 | 0.5pF | Walsin Tech Corp | 0402N0R5C500CT | C152789 | 0.5pF 50V NP0 0402 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS | 1 | 20 | $0.05 | https://jlcpcb.com/partdetail/Walsin_TechCorp-0402N0R5C500CT/C152789 |
+| D1 | LEDred | Lite-On | LTST-C281KRKT | C364556 | -30℃~+85℃ 130° 18mcd~54mcd 20mA 2V 62.5mW 631nm 639nm Discrete Diode Red Water Clear 0402 LED Indication - Discrete ROHS | 1 | 11 | $0.45 | https://jlcpcb.com/partdetail/LiteOn-LTSTC281KRKT/C364556 |
+| L1 | 3.0nH | Murata Electronics | LQG15HS3N0S02D | C19898 | 125mΩ 3nH 6GHz 800mA 8@100MHz Multilayer inductor 0402 Inductors (SMD) ROHS | 1 | 20 | $0.49 | https://jlcpcb.com/partdetail/MurataElectronics-LQG15HS3N0S02D/C19898 |
+| L2 | 2.5nH | Sunlord | MWSD1005C2N5STM01 | C778764 | 2.5nH 50mΩ 850mA Wire-wound chip inductor 0402 Inductors (SMD) ROHS | 1 | 9 | $0.56 | https://jlcpcb.com/partdetail/Sunlord-MWSD1005C2N5STM01/C778764 |
+| R1, R2, R3 | 1k | UNI-ROYAL(Uniroyal Elec) | 0402WGF1001TCE | C11702 | -55℃~+155℃ 1kΩ 50V 62.5mW Thick Film Resistor ±1% ±100ppm/℃ 0402 Chip Resistor - Surface Mount ROHS | 3 | 25 | $0.03 | https://jlcpcb.com/partdetail/12256-0402WGF1001TCE/C11702 |
+| U1 | SX1280IMLTRT | SEMTECH | SX1280IMLTRT | C125969 | -132dBm -40℃~+85℃ 1.8V~3.7V 12.5dBm 2.4GHz 2.4GHz~2.5GHz 24mA 8.2mA SPI、UART Supports RSSI function transceiver QFN-24-EP(4x4) RF Transceiver ICs ROHS | 1 | 5 | $23.04 | https://jlcpcb.com/partdetail/SEMTECH-SX1280IMLTRT/C125969 |
+| U2 | RFX2401C | Skyworks Solutions | RFX2401C | C19213 | -10dB -12dB -15dB -40℃~+85℃ -8dB -8dBm 2.4GHz~2.5GHz 22dBm 2V~3.6V ZigBee 集成低噪声放大器、集成射频开关、集成功率放大器、集成射频滤波器、集成功率检测器 QFN-16-EP(3x3) RF Front End Circuits ROHS | 1 | 5 | $4.59 | https://jlcpcb.com/partdetail/SkyworksSolutions-RFX2401C/C19213 |
+| U3 | AP2112K-3.3TRG1 | TECH PUBLIC | AP2112K-3.3TRG1 | C23380830 | -40℃~+85℃@(Ta) 1 10uA 3.3V 320mV@(600mA) 5.5V 600mA 75dB@(1kHz) Fixed Over Temperature Protection Positive SOT-23-5 Voltage Regulators - Linear, Low Drop Out (LDO) Regulators ROHS | 1 | 7 | $0.78 | https://jlcpcb.com/partdetail/TECHPUBLIC-AP2112K_33TRG1/C23380830 |
+| Y2 | 52MHzcrystal2.0x1.6mm4-pad | JLYE | Y201652MEBCX | C54973959 | SMD2016-4P Crystals ROHS | 1 | 9 | $0.90 | https://jlcpcb.com/partdetail/JLYE-Y201652MEBCX/C54973959 |
+| J2 | SMA female edge-mount connector | — | — | Hand-soldered (Amazon) | Not assembled by JLCPCB — Amazon link TBD | 1 | 5 | TBD |  |
+| ANT1 | 2.4GHz antenna, SMA male | BOOBRIE | B0991PKTDL | Amazon | 3 x 2-pack (5 boards + 1 spare), $6.68/pack | 1 | 6 | $20.04 | https://www.amazon.com/BOOBRIE-Antenna-802-11b-Aerial-Wireless/dp/B0991PKTDL |
+| PCB-FAB | PCB fabrication | JLCPCB | v8_Y4 | — | 5x, green, 1.6mm, ENIG | — | 5 | $38.91 | https://jlcpcb.com/capabilities/pcb-capabilities |
+| PCBA | Standard PCBA, top side | JLCPCB | v8_Y4 | — | Assembly of all JLCPCB parts above (parts est. $32.30 included) | — | 5 | $92.18 | https://jlcpcb.com/pcb-assembly |
+| SHIPPING | Estimated shipping to US | JLCPCB | — | — | 0.41 kg, est. ship date 2026-11-28 | — | 1 | $25.99 | https://jlcpcb.com/ |
+| **JLCPCB ORDER TOTAL** |  |  |  |  | PCB + PCBA + shipping (cart 2026-11-22) |  |  | **$157.08** |  |
+| **PROJECT TOTAL** |  |  |  |  | JLCPCB order + antennas (+ J2 once linked) |  |  | **$177.12 + J2** |  |
 
 ## Additional Notes
 Although this is a kind of uneventful and not world-changing project like some of the other ones, it was quite fun. A lot of my projects got rejected already :'(
@@ -95,7 +93,6 @@ I played Factorio a couple years back, beat it, played Krastorio and SE, and it 
 
 Antennas (Amazon): the receiver/drone antenna is the BOOBRIE 2.4GHz SMA male (B0991PKTDL) — a 2-antenna pack, $6.68/pack ($3.34 each, better per-antenna rate than singles). One antenna per board, so 3 packs for 5 boards (1 spare). The transmitter/controller antenna is the HeelAooRC 2.4GHz ExpressLRS ES24TX Moxon (SMA plug, for the Micro TX module) — also a 2-antenna pack, $14.99/pack, 1 pack for the controller (1 used, 1 spare).
 
-BOM rebuilt 2026-11-12 to match the schematic's designators: J1 is a 2x6 female socket (not the 1x12 male header the BOM used to say); the crystal is Y2 (not X1); the TXEN/RXEN series resistors are R2/R3 (not R3/R4) — the wiring table above already said R2/R3. All passives are 0402 to match the footprints (the old 0603 cap/resistor lines were the wrong package). C3/C4 crystal load caps are not populated — the SX1280 has ~10pF internal load, which matches the crystal. C12 (LDO bypass cap) is removed — the AP2112K has no BYP pin. C14–C17 are in the schematic but still need values. C18 is new: a 100pF DC-blocking cap that goes in series in the RF path (the SX1280's RFIO pin is DC-biased and the RFX2401C's TXRX pin is DC-shorted to ground, so the path needs a blocking cap) — it still has to be added to the schematic. LCSC prices are the lowest-tier unit prices; several parts have minimum order quantities (100 for the 0.1µF caps, 50 for the 100pF and 470nF caps, 20 for the 10µF cap, 5 for the LED and the header socket), so the true cash outlay is a little higher than the per-board subtotal.
 
 ## Test Code
 
