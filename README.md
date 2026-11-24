@@ -77,8 +77,8 @@ Component lines come straight from the JLCPCB BOM matching export (2026-11-23); 
 | PCB-FAB | PCB fabrication | JLCPCB | v8_Y4 | N/A | 5x, green, 1.6mm, ENIG | N/A | 5 | $38.91 | https://jlcpcb.com/capabilities/pcb-capabilities |
 | PCBA | Standard PCBA, top side | JLCPCB | v8_Y4 | N/A | Assembly of all JLCPCB parts above (parts est. $32.30 included) | N/A | 5 | $92.18 | https://jlcpcb.com/pcb-assembly |
 | SHIPPING | Estimated shipping to US | JLCPCB | N/A | N/A | 0.41 kg, est. ship date 2026-11-28 | N/A | 1 | $25.99 | https://jlcpcb.com/ |
-| **JLCPCB ORDER TOTAL** |  |  |  |  | PCB + PCBA + shipping (cart 2026-11-22) |  |  | **$157.08** |  |
-| **PROJECT TOTAL** |  |  |  |  | JLCPCB order + antennas + J2 connectors |  |  | **$188.11** |  |
+| **JLCPCB ORDER TOTAL** | N/A | N/A | N/A | N/A | PCB + PCBA + shipping (cart 2026-11-22) | N/A | N/A | **$157.08** | N/A |
+| **PROJECT TOTAL** | N/A | N/A | N/A | N/A | JLCPCB order + antennas + J2 connectors | N/A | N/A | **$188.11** | N/A |
 
 ## Additional Notes
 Although this is a kind of uneventful and not world-changing project like some of the other ones, it was quite fun. A lot of my projects got rejected already :'(
