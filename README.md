@@ -5,7 +5,7 @@ This is designed as a custom ESP32 transmitter and receiver that can use LoRA (2
 
 My initial goal for this project was to simply make a custom transmitter and receiver for my custom FPV drone, as it was originally using the PCB radio on an ESP-32, but soon grew into a very complex PCB routing and schematic design project. 
 
-I learned lots of useful techniques in KiCAD and JLCPCB, such as routing, layering, vias, copper pours, and constraints with RF signal routing, which I will use in my future to make even more complex PCBs!
+I learned lots of useful techniques in KiCAD and JLCPCB and part selection, such as routing, layering, vias, copper pours, and constraints with RF signal routing, which I will use in my future to make even more complex PCBs!
 
 The radio amplifier and transceiver module is based on the SX1280IMLTRT transceiver IC and an RFX2401C RF front-end.
 
