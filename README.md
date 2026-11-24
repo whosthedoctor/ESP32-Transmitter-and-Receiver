@@ -116,10 +116,8 @@ Both use [RadioLib](https://github.com/jgromes/RadioLib) and the J1 pins above. 
 #define PIN_TXEN  25
 #define PIN_RXEN  26
 
-// Module(cs, irq, rst, busy)
 SX1280 radio = new Module(PIN_NSS, PIN_DIO1, PIN_RST, PIN_BUSY);
 
-// Keep the SX1280 output low: the RFX2401C amplifies it.
 const int8_t TX_POWER_DBM = 0;
 
 uint32_t counter = 0;
@@ -128,7 +126,6 @@ void setup() {
   Serial.begin(115200);
   SPI.begin(PIN_SCK, PIN_MISO, PIN_MOSI, PIN_NSS);
 
-  // RadioLib drives RXEN/TXEN on the RFX2401C automatically
   radio.setRfSwitchPins(PIN_RXEN, PIN_TXEN);
 
   // 2400 MHz, 812.5 kHz BW, SF9, CR 4/7, private sync word
@@ -158,8 +155,6 @@ void loop() {
 ### Receiver
 
 ```cpp
-// SX1280 + RFX2401C module: receiver
-// Prints each packet with RSSI and SNR. Radio settings must match the transmitter.
 #include <RadioLib.h>
 
 // J1 -> ESP32 DevKit-C
@@ -177,7 +172,6 @@ SX1280 radio = new Module(PIN_NSS, PIN_DIO1, PIN_RST, PIN_BUSY);
 
 volatile bool packetReady = false;
 
-// Runs when DIO1 goes high (packet received)
 void IRAM_ATTR onPacket() {
   packetReady = true;
 }
