@@ -28,12 +28,14 @@ Full schematic PDF: [Schematic Files/ESPNOW_Reciever_and_Transmitter.pdf](Schema
 Gerbers and drill files are in `PCB Gerbers/`, zipped for JLCPCB upload in `JLCPCB Prod Files/gerbers.zip`.
 
 ### Backside
+![Back of the board, 3D view](docs/images/pcb-back-3d.png)
 
 ### Frontside
 
 ### Topside
 
 ### Bottom
+![Bottom copper layer](docs/images/pcb-bottom-layer.png)
 
 ## Wiring with Pins to ESP32 DevKit-C CP2012
 | J1 Pin | Signal   | ESP32 GPIO | Notes                                        |
