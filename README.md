@@ -157,7 +157,6 @@ void loop() {
 ```cpp
 #include <RadioLib.h>
 
-// J1 -> ESP32 DevKit-C
 #define PIN_SCK   18
 #define PIN_MISO  19
 #define PIN_MOSI  23
