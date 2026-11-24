@@ -21,7 +21,7 @@ I used KiCAD, as it is free, unlike something like Altium Designer, to design th
 Full schematic PDF: [Schematic Files/ESPNOW_Reciever_and_Transmitter.pdf](Schematic%20Files/ESPNOW_Reciever_and_Transmitter.pdf)
 
 ## PCB
-Gerbers and drill files are in `PCB Gerbers/`, zipped for JLCPCB upload in `JLCPCB Prod Files/gerbers.zip`.
+Gerbers and drill files are in `PCB Gerbers/`.
 
 ### Backside
 ![Back of the board, 3D view](docs/images/pcb-back-3d.png)
