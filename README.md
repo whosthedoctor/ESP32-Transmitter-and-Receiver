@@ -96,12 +96,129 @@ Antennas (Amazon): the receiver/drone antenna is the BOOBRIE 2.4GHz SMA male (B0
 
 No Hackatime as its a pretty short and basic script.
 
-```
+Both use [RadioLib](https://github.com/jgromes/RadioLib) and the J1 pins above. Radio settings (2400 MHz, 812.5 kHz BW, SF9, CR 4/7) must match on both boards.
+
+### Transmitter
+
+```cpp
+// SX1280 + RFX2401C module: transmitter
+// Sends a numbered packet every second. Pins match the J1 wiring table in README.md.
 #include <RadioLib.h>
-SX1280 radio = new Module(5, 27, 13, 4);
+
+// J1 -> ESP32 DevKit-C
+#define PIN_SCK   18
+#define PIN_MISO  19
+#define PIN_MOSI  23
+#define PIN_NSS    5
+#define PIN_DIO1  27
+#define PIN_RST   13
+#define PIN_BUSY   4
+#define PIN_TXEN  25
+#define PIN_RXEN  26
+
+// Module(cs, irq, rst, busy)
+SX1280 radio = new Module(PIN_NSS, PIN_DIO1, PIN_RST, PIN_BUSY);
+
+// Keep the SX1280 output low: the RFX2401C amplifies it.
+const int8_t TX_POWER_DBM = 0;
+
+uint32_t counter = 0;
+
 void setup() {
-  SPI.begin(18, 19, 23, 5);
-  radio.setRfSwitchPins(26, 25);
-  radio.begin();
+  Serial.begin(115200);
+  SPI.begin(PIN_SCK, PIN_MISO, PIN_MOSI, PIN_NSS);
+
+  // RadioLib drives RXEN/TXEN on the RFX2401C automatically
+  radio.setRfSwitchPins(PIN_RXEN, PIN_TXEN);
+
+  // 2400 MHz, 812.5 kHz BW, SF9, CR 4/7, private sync word
+  int state = radio.begin(2400.0, 812.5, 9, 7, RADIOLIB_SX128X_SYNC_WORD_PRIVATE, TX_POWER_DBM);
+  if (state != RADIOLIB_ERR_NONE) {
+    Serial.print("SX1280 init failed, code ");
+    Serial.println(state);
+    while (true) delay(1000);
+  }
+  Serial.println("Transmitter ready");
+}
+
+void loop() {
+  String msg = "Hello #" + String(counter++);
+  int state = radio.transmit(msg);
+  if (state == RADIOLIB_ERR_NONE) {
+    Serial.print("Sent: ");
+    Serial.println(msg);
+  } else {
+    Serial.print("Send failed, code ");
+    Serial.println(state);
+  }
+  delay(1000);
+}
+```
+
+### Receiver
+
+```cpp
+// SX1280 + RFX2401C module: receiver
+// Prints each packet with RSSI and SNR. Radio settings must match the transmitter.
+#include <RadioLib.h>
+
+// J1 -> ESP32 DevKit-C
+#define PIN_SCK   18
+#define PIN_MISO  19
+#define PIN_MOSI  23
+#define PIN_NSS    5
+#define PIN_DIO1  27
+#define PIN_RST   13
+#define PIN_BUSY   4
+#define PIN_TXEN  25
+#define PIN_RXEN  26
+
+SX1280 radio = new Module(PIN_NSS, PIN_DIO1, PIN_RST, PIN_BUSY);
+
+volatile bool packetReady = false;
+
+// Runs when DIO1 goes high (packet received)
+void IRAM_ATTR onPacket() {
+  packetReady = true;
+}
+
+void setup() {
+  Serial.begin(115200);
+  SPI.begin(PIN_SCK, PIN_MISO, PIN_MOSI, PIN_NSS);
+  radio.setRfSwitchPins(PIN_RXEN, PIN_TXEN);
+
+  int state = radio.begin(2400.0, 812.5, 9, 7, RADIOLIB_SX128X_SYNC_WORD_PRIVATE, 0);
+  if (state != RADIOLIB_ERR_NONE) {
+    Serial.print("SX1280 init failed, code ");
+    Serial.println(state);
+    while (true) delay(1000);
+  }
+
+  radio.setPacketReceivedAction(onPacket);
+  radio.startReceive();
+  Serial.println("Receiver listening");
+}
+
+void loop() {
+  if (!packetReady) return;
+  packetReady = false;
+
+  String msg;
+  int state = radio.readData(msg);
+  if (state == RADIOLIB_ERR_NONE) {
+    Serial.print("Got: ");
+    Serial.print(msg);
+    Serial.print("  RSSI ");
+    Serial.print(radio.getRSSI());
+    Serial.print(" dBm  SNR ");
+    Serial.print(radio.getSNR());
+    Serial.println(" dB");
+  } else if (state == RADIOLIB_ERR_CRC_MISMATCH) {
+    Serial.println("Packet with bad CRC");
+  } else {
+    Serial.print("Receive failed, code ");
+    Serial.println(state);
+  }
+  radio.startReceive();
 }
 ```
