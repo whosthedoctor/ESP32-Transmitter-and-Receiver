@@ -212,11 +212,3 @@ void loop() {
   radio.startReceive();
 }
 ```
-
-## Known Issues
-
-These don't affect the fabricated board (the copper and JLCPCB files are correct), but the KiCad source still needs cleanup:
-
-- **U3 symbol:** schematic still uses the LT1761-1.2 symbol. The placed part is the AP2112K-3.3 (see BOM). Symbol swap + BYP cap removal pending.
-- **C18/C19 schematic wire:** on the PCB, C19 (0.5pF shunt) and C18 (DNP) are routed to the L2/C12 node, but the schematic is missing that wire, so DRC will report a net short there. Fix: add the wire in the schematic and update the PCB from schematic.
-- **U2 3D model:** the RFX2401C has no 3D model assigned, so it does not appear in the STEP export.
