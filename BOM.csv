@@ -17,8 +17,8 @@ Y2,52MHzcrystal2.0x1.6mm4-pad,JLYE,Y201652MEBCX,C54973959,SMD2016-4P Crystals RO
 ,,,,,,,,,
 J2,SMA female edge-mount connector,Superbat,B09V5811S7,Hand-soldered (Amazon),"0.062 inch (1.6mm) straight end launch, gold-plated, 10-pack (covers 5 boards + 5 spare)",1,10,$10.99,https://www.amazon.com/dp/B09V5811S7?niid=nl_cl_lst_a_1_0&ref_=nl_cl_lst_a_1_0&nrid=ZDD5HJJ36HSXP2ZYMC3M&th=1
 ANT1,"2.4GHz antenna, SMA male",BOOBRIE,B0991PKTDL,Amazon,"3 x 2-pack (5 boards + 1 spare), $6.68/pack",1,6,$20.04,https://www.amazon.com/BOOBRIE-Antenna-802-11b-Aerial-Wireless/dp/B0991PKTDL
-PCB-FAB,PCB fabrication,JLCPCB,v8_Y4,—,"5x, green, 1.6mm, ENIG",—,5,$38.91,https://jlcpcb.com/capabilities/pcb-capabilities
-PCBA,"Standard PCBA, top side",JLCPCB,v8_Y4,—,Assembly of all JLCPCB parts above (parts est. $32.30 included),—,5,$92.18,https://jlcpcb.com/pcb-assembly
-SHIPPING,Estimated shipping to US,JLCPCB,—,—,"0.41 kg, est. ship date 2026-11-28",—,1,$25.99,https://jlcpcb.com/
+PCB-FAB,PCB fabrication,JLCPCB,v8_Y4,N/A,"5x, green, 1.6mm, ENIG",N/A,5,$38.91,https://jlcpcb.com/capabilities/pcb-capabilities
+PCBA,"Standard PCBA, top side",JLCPCB,v8_Y4,N/A,Assembly of all JLCPCB parts above (parts est. $32.30 included),N/A,5,$92.18,https://jlcpcb.com/pcb-assembly
+SHIPPING,Estimated shipping to US,JLCPCB,N/A,N/A,"0.41 kg, est. ship date 2026-11-28",N/A,1,$25.99,https://jlcpcb.com/
 **JLCPCB ORDER TOTAL**,,,,,PCB + PCBA + shipping (cart 2026-11-22),,,**$157.08**,
 **PROJECT TOTAL**,,,,,JLCPCB order + antennas + J2 connectors,,,**$188.11**,
