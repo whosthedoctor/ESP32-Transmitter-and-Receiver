@@ -38,7 +38,7 @@ Gerbers and drill files are in `PCB Gerbers/`.
 ## Wiring with Pins to ESP32 DevKit-C CP2012
 | J1 Pin | Signal   | ESP32 GPIO | Notes                                        |
 |:------:|----------|:----------:|----------------------------------------------|
-| 1      | 5V       | 5V         | Powers the board's 3.3 V regulator           |
+| 1      | 5V       | 5V         | Power           |
 | 2      | GND      | GND        |                                              |
 | 3      | SCK      | GPIO18     | SPI clock (VSPI)                             |
 | 4      | MISO     | GPIO19     | Output from SX1280                           |
