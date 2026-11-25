@@ -105,3 +105,16 @@ The nets from the pin header mistake in schematic are unassigned, so i had to re
 <img width="857" height="597" alt="Screenshot 2026-11-25 at 3 07 07 PM" src="https://github.com/user-attachments/assets/80066f0d-6a92-4998-a402-a743e5b59eb9" />
 
 **Total time spent: 1.5h**
+
+## November 12, 2026: Making a V2, because V1 was too big
+
+Just rearranged components and tried to unify the gnd pour without making it too big. and i learned how to put images on boards
+
+<img width="821" height="551" alt="Screenshot 2026-11-25 at 3 10 08 PM" src="https://github.com/user-attachments/assets/6db126b4-6fc5-4673-8b32-6d5c678086cf" />
+
+<img width="1120" height="570" alt="Screenshot 2026-11-25 at 3 09 48 PM" src="https://github.com/user-attachments/assets/1b743982-8a88-4cf6-bfd8-782b5a9186ac" />
+
+<img width="944" height="514" alt="Screenshot 2026-11-25 at 3 10 26 PM" src="https://github.com/user-attachments/assets/e95f2b04-1a1d-4ec5-a4bd-a5042fd87a20" />
+
+
+**Total time spent: 1.3h**
