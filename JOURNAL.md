@@ -27,12 +27,14 @@ Radio Chip: SX1280, as its small, highly sensitive, and can do LoRa, as well as 
 Amplifier: RFX2401C, as it has all three parts, and boosts the 12.5 dBm to 20 dBm, which is 2.4x the range in open air, and it runs on 2.0-3.6v.
 Crystal: JLYE Y201652MEBCX, has 52 MHz, and is small.
 
-Radio Chip:
 
 <img width="404" height="122" alt="Screenshot 2026-11-25 at 2 28 40 PM" src="https://github.com/user-attachments/assets/f63c5abe-2370-4717-8c59-80af86fd7d49" />
 
 Pinouts:
+Radio Chip:
 <img width="1000" height="1000" alt="image" src="https://github.com/user-attachments/assets/445efd34-9e97-483b-8525-07d7f664ed15" />
+
+Amp:
 <img width="304" height="296" alt="image" src="https://github.com/user-attachments/assets/fd32984f-af3a-42da-8bca-3df970540481" />
 
 Crystal just has 4 pads, no pinout image online
