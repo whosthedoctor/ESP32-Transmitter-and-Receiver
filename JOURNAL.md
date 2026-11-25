@@ -1,9 +1,9 @@
 ---
 title: "ESP32 Transmitter and Receiver"
-github: "your repo"
-description: "Describe your project in a short sentence!"
-created_at: "2026-03-20"
-total_time: "2h"
+github: "[your repo](https://github.com/whosthedoctor/ESP32-Transmitter-and-Receiver/)"
+description: "Create a Long Range transmitter for my ESP32 that can do standard radio and drone protocols, stable, low packet loss, and 40 km range"
+created_at: "2026-11-5"
+total_time: ""
 ---
 
 ## November 6, 2026: Finding Parts
