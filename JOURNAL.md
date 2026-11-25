@@ -92,3 +92,16 @@ BOM so far:
 <img width="494" height="494" alt="Screenshot 2026-11-25 at 2 55 48 PM" src="https://github.com/user-attachments/assets/c8b116c8-2452-4868-8fa7-9787eeab25f2" />
 
 **Total time spent: 4h**
+
+
+## November 8, 2026: Working on the pcb (later its V1)
+
+Just putting all the traces together, make the LDO close to the pins, and just place things in other places. Not much to say, but the gnd pours are connected, and the vias were too big and i made the setting smaller.
+0.5mm for power, 0.2 or 0.3mm for signal traces.
+The nets from the pin header mistake in schematic are unassigned, so i had to reassign them.
+
+<img width="1266" height="827" alt="Screenshot 2026-11-25 at 3 06 53 PM" src="https://github.com/user-attachments/assets/07d662ed-4abf-49da-b7b1-9b220f9aa19b" />
+
+<img width="857" height="597" alt="Screenshot 2026-11-25 at 3 07 07 PM" src="https://github.com/user-attachments/assets/80066f0d-6a92-4998-a402-a743e5b59eb9" />
+
+**Total time spent: 1.5h**
