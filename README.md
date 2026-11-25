@@ -91,6 +91,8 @@ I played Factorio a couple years back, beat it, played Krastorio and SE, and it 
 
 Antennas (Amazon): the receiver/drone antenna is the BOOBRIE 2.4GHz SMA male (B0991PKTDL), a 2-antenna pack, $6.68/pack ($3.34 each, better per-antenna rate than singles). One antenna per board, so 3 packs for 5 boards (1 spare). The transmitter/controller antenna is the HeelAooRC 2.4GHz ExpressLRS ES24TX Moxon (SMA plug, for the Micro TX module), also a 2-antenna pack, $14.99/pack, 1 pack for the controller (1 used, 1 spare).
 
+I couldn't match the lapse times, as I work sporadically (work for 5 minutes, then play cs, then repeat), so a lot of the lapses don't represent all the work I did.
+
 ## No Fixes Needed Notes
 U3 Schematic symbol is LT1761-1.2 but AP2112K-3.3 is placed
  - The PCB is fine, just the Schematic DRC has an error
