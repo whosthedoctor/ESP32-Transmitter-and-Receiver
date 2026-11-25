@@ -91,10 +91,14 @@ I played Factorio a couple years back, beat it, played Krastorio and SE, and it 
 
 Antennas (Amazon): the receiver/drone antenna is the BOOBRIE 2.4GHz SMA male (B0991PKTDL), a 2-antenna pack, $6.68/pack ($3.34 each, better per-antenna rate than singles). One antenna per board, so 3 packs for 5 boards (1 spare). The transmitter/controller antenna is the HeelAooRC 2.4GHz ExpressLRS ES24TX Moxon (SMA plug, for the Micro TX module), also a 2-antenna pack, $14.99/pack, 1 pack for the controller (1 used, 1 spare).
 
+## No Fixes Needed Notes
+U3 Schematic symbol is LT1761-1.2 but AP2112K-3.3 is placed
+C18/C19 wire is missing in schematic, connected at node and error in DRC, prod is fine.
+U2 RFX2401C has no 3D model in the STEP, but just check the one in KiCAD
 
 ## Test Code
 
-No Hackatime as its a pretty short and basic script.
+No Hackatime, as it's a pretty short and basic script.
 
 Both use [RadioLib](https://github.com/jgromes/RadioLib) and the J1 pins above. Radio settings (2400 MHz, 812.5 kHz BW, SF9, CR 4/7) must match on both boards.
 
