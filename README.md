@@ -93,8 +93,10 @@ Antennas (Amazon): the receiver/drone antenna is the BOOBRIE 2.4GHz SMA male (B0
 
 ## No Fixes Needed Notes
 U3 Schematic symbol is LT1761-1.2 but AP2112K-3.3 is placed
+ - The PCB is fine, just the Schematic DRC has an error
 C18/C19 wire is missing in schematic, connected at node and error in DRC, prod is fine.
 U2 RFX2401C has no 3D model in the STEP, but just check the one in KiCAD
+ - 3D model only affects the render and STEP export
 
 ## Test Code
 
