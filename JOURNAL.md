@@ -1,5 +1,5 @@
 ---
-title: "Your Project Name"
+title: "ESP32 Transmitter and Receiver"
 github: "your repo"
 description: "Describe your project in a short sentence!"
 created_at: "2026-03-20"
