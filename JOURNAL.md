@@ -26,8 +26,6 @@ Specific Parts:
 Radio Chip: SX1280, as its small, highly sensitive, and can do LoRa, as well as FLRC, GFSK, BLE, and ExpressLRS is based on the other ones, and has 12.5 dBm.
 Amplifier: RFX2401C, as it has all three parts, and boosts the 12.5 dBm to 20 dBm, which is 2.4x the range in open air, and it runs on 2.0-3.6v.
 Crystal: JLYE Y201652MEBCX, has 52 MHz, and is small.
+<img width="404" height="122" alt="Screenshot 2026-11-25 at 2 28 40 PM" src="https://github.com/user-attachments/assets/f63c5abe-2370-4717-8c59-80af86fd7d49" />
 
-
-<at least 1 picture of where you're currently at! the more the better>
-
-**Total time spent: 2h**
+**Total time spent: 40m**
