@@ -116,5 +116,15 @@ Just rearranged components and tried to unify the gnd pour without making it too
 
 <img width="944" height="514" alt="Screenshot 2026-11-25 at 3 10 26 PM" src="https://github.com/user-attachments/assets/e95f2b04-1a1d-4ec5-a4bd-a5042fd87a20" />
 
-
 **Total time spent: 1.3h**
+
+## November 14, 2026: FINAL: Made a V3
+
+Made a V3, compared the V3 and V2, and then decided on V3 as the final version.
+
+<img width="1130" height="579" alt="Screenshot 2026-11-25 at 3 15 42 PM" src="https://github.com/user-attachments/assets/f17ddcf1-8f6a-4d84-8c2c-6aae0e986f8a" />
+
+<img width="875" height="409" alt="Screenshot 2026-11-25 at 3 16 06 PM" src="https://github.com/user-attachments/assets/61a916dd-adae-45ab-8880-0183576a4f0b" />
+
+Began working on a V4, but it was based on moving parts on the underside of the board, which, after researching, causes interuptions to the gnd pour and rf signal for some reason.
+**Total time spent: 3h**
