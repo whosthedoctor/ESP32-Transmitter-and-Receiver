@@ -127,4 +127,24 @@ Made a V3, compared the V3 and V2, and then decided on V3 as the final version.
 <img width="875" height="409" alt="Screenshot 2026-11-25 at 3 16 06 PM" src="https://github.com/user-attachments/assets/61a916dd-adae-45ab-8880-0183576a4f0b" />
 
 Began working on a V4, but it was based on moving parts on the underside of the board, which, after researching, causes interuptions to the gnd pour and rf signal for some reason.
+
+Got rid of as many silkscreens as possible to clean it up. No screw holes because it should be mounted with glues instead of screws.
 **Total time spent: 3h**
+
+## November 21, 2026: Finished up the Github README and JLCPCB cart
+
+Had to swap some part numbers in JLCPCB, as they were out of stock on JLCPCB
+<img width="1081" height="599" alt="Screenshot 2026-11-25 at 3 19 31 PM" src="https://github.com/user-attachments/assets/4286c79f-0fe8-4050-8eb3-27b32b671064" />
+
+BOM From JLCPCB:
+<img width="1073" height="728" alt="Screenshot 2026-11-25 at 3 20 14 PM" src="https://github.com/user-attachments/assets/0e4380ae-ec49-4478-bdba-06752b13fe40" />
+
+Final Github README:
+
+[README.pdf](https://github.com/user-attachments/files/35434230/README.pdf)
+
+Uploaded all files:
+
+<img width="1295" height="715" alt="Screenshot 2026-11-25 at 3 22 38 PM" src="https://github.com/user-attachments/assets/fec6ea09-6525-4624-951a-d194fa8e6b6e" />
+
+**Total time spent: 5h**
