@@ -42,10 +42,53 @@ Crystal just has 4 pads, no pinout image online
 **Total time spent: 40m**
 
 
-## June 8, 2026: Creating the Schematic and Finding Smaller Parts
+## November 7, 2026: Creating the Schematic and Finding Smaller Parts
 
-Installed KiCAD and started working on the schematic
+Installed KiCAD and started working on the schematic. I first tried to find a schematic for the amp and radio chip, but then had to make one myself in the editor. I then worked on the schematic, adding smaller parts as I went. 
+# Extra Parts:
+I need a regulator, might as well start on 5v because 5v regulators are common.
+Using the AP2112K 3.3v regulator
 
-<at least 1 picture of where you're currently at! the more the better>
+<img width="430" height="400" alt="image" src="https://github.com/user-attachments/assets/3923e321-a064-4095-8a37-7bf152b990b8" />
 
-**Total time spent: 2h**
+Parts needed bc of added main part: 
+C11: 0.1 microF, input cap 
+C1: 10 microF, bulk cap on 3.3v and gnd
+C9, C10 0.1 microF: decoupling caps for 3.3v and gnd
+
+Radio Chip Parts:
+C2 0.1 microF: regulator for radio chip cap
+C13 470 nF: voltage pins 2 and 12 on the SX1280 connected (theres on on the SX1280, but not reliable so using the LDO instead.)
+
+Power LED (because if theres no power led, is it even a real pcb?):
+R1 1k: Connected to 5v
+D1 red LED
+
+RF Matching and Filter:
+C5 1.2pF: U1 pin 22 to gnd as a shunt cap
+L1 3.0nH: u1 pin 22 to C6 in series inductor
+C6 0.8pF: L1 to gnd as shunt
+L2 2.5nH: C6 node to C12 node in series
+C19 0.5pF: C12 node to gnd shunt
+C18 100pF (DNP): shunt to gnd, not needed
+C12 1.2pF: C12 to U2 pin 4 TXRX
+
+Amplifier Control:
+R2 1k: pin 10 to U2 pin 5
+R3 1k: pin 11 to U2 pin 6
+
+Connectors and desired pinout:
+J1, a 2x6 socket(its in schematic as 1x12 but I forgot to change it): 1 = 5v, 2= gnd, 3= sck, 4 = MISO, 5= mosi, 6= NSS, 7 = BUSY, 8 = DIO1, 9 = RST, 10 = TXEN, 11 = RXEN, 12 = GND
+J2, SMA, using Amphenol 132289 footprint but KiCAD doesnt place sma connectors so thats from Amazon ig
+DNP Caps: C3 and C4 to calibrate the crystal, and C7(i couldnt figure out how to remove it its just DNP) 
+
+
+Schematic:
+
+<img width="934" height="828" alt="Screenshot 2026-11-25 at 2 41 30 PM" src="https://github.com/user-attachments/assets/d8467539-8cb9-4165-8e1d-ff8bc46d641f" />
+
+BOM so far:
+
+<img width="494" height="494" alt="Screenshot 2026-11-25 at 2 55 48 PM" src="https://github.com/user-attachments/assets/c8b116c8-2452-4868-8fa7-9787eeab25f2" />
+
+**Total time spent: 4h**
