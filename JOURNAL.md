@@ -24,7 +24,7 @@ All parts NEED to run on 3.3V, undecided whether or not to feed it on 5v and the
 
 Specific Parts:
 Radio Chip: SX1280, as its small, highly sensitive, and can do LoRa, as well as FLRC, GFSK, BLE, and ExpressLRS is based on the other ones, and has 12.5 dBm.
-Amplifier: RFX2401C, as it has all three parts, and boosts the 12.5 dBm to 20 dBm, which is 2.4x the range in open air, and it runs on 2.0-3.6v.
+Amplifier: RFX2401C, as it has all three parts, and boosts the 12.5 dBm to 20 dBm, which is 2x the range in LOS, and it runs on 2.0-3.6v.
 Crystal: JLYE Y201652MEBCX, has 52 MHz, and is small.
 
 
