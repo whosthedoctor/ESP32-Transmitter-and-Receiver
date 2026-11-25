@@ -100,6 +100,8 @@ U2 RFX2401C has no 3D model in the STEP, but just check the one in KiCAD
 
 ## Test Code
 
+**UNTESTED**
+
 No Hackatime, as it's a pretty short and basic script.
 
 Both use [RadioLib](https://github.com/jgromes/RadioLib) and the J1 pins above. Radio settings (2400 MHz, 812.5 kHz BW, SF9, CR 4/7) must match on both boards.
