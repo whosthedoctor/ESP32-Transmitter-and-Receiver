@@ -35,6 +35,9 @@ Gerbers and drill files are in `PCB Gerbers/`.
 ### Bottom
 ![Bottom copper layer](docs/images/pcb-bottom-layer.png)
 
+### JLCPCB Assembly Preview
+![JLCPCB assembly 3D preview](docs/images/jlcpcb-assembly-preview.png)
+
 ## Wiring with Pins to ESP32 DevKit-C CP2012
 | J1 Pin | Signal   | ESP32 GPIO | Notes                                        |
 |:------:|----------|:----------:|----------------------------------------------|
