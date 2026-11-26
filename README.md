@@ -71,6 +71,8 @@ Antennas (Amazon): the receiver/drone antenna is the BOOBRIE 2.4GHz SMA male (B0
 
 I couldn't match the lapse times, as I work sporadically (work for 5 minutes, then play cs, then repeat), so a lot of the lapses don't represent all the work I did.
 
+Really expensive because JLCPCB can't do any less than a 5 pack of boards.
+
 ## No Fixes Needed Notes
 U3 Schematic symbol is LT1761-1.2 but AP2112K-3.3 is placed
  - The PCB is fine, just the Schematic DRC has an error
